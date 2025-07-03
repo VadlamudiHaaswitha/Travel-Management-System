@@ -1,0 +1,166 @@
+22-Jun-2025 15:40:05 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:232)
+
+The following method did not exist:
+
+    'void org.apache.logging.log4j.util.PropertiesUtil.addPropertySource(org.apache.logging.log4j.util.PropertySource)'
+
+The calling method's class, org.springframework.boot.logging.log4j2.Log4J2LoggingSystem, was loaded from the following location:
+
+    jar:file:/C:/Users/vadlamudi.haaswitha/.m2/repository/org/springframework/boot/spring-boot/3.5.0/spring-boot-3.5.0.jar!/org/springframework/boot/logging/log4j2/Log4J2LoggingSystem.class
+
+The called method's class, org.apache.logging.log4j.util.PropertiesUtil, is available from the following locations:
+
+    jar:file:/C:/Users/vadlamudi.haaswitha/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar!/org/apache/logging/log4j/util/PropertiesUtil.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.apache.logging.log4j.util.PropertiesUtil: file:/C:/Users/vadlamudi.haaswitha/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.boot.logging.log4j2.Log4J2LoggingSystem and org.apache.logging.log4j.util.PropertiesUtil
+
+22-Jun-2025 15:41:25 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.initialize(Log4J2LoggingSystem.java:232)
+
+The following method did not exist:
+
+    'void org.apache.logging.log4j.util.PropertiesUtil.addPropertySource(org.apache.logging.log4j.util.PropertySource)'
+
+The calling method's class, org.springframework.boot.logging.log4j2.Log4J2LoggingSystem, was loaded from the following location:
+
+    jar:file:/C:/Users/vadlamudi.haaswitha/.m2/repository/org/springframework/boot/spring-boot/3.5.0/spring-boot-3.5.0.jar!/org/springframework/boot/logging/log4j2/Log4J2LoggingSystem.class
+
+The called method's class, org.apache.logging.log4j.util.PropertiesUtil, is available from the following locations:
+
+    jar:file:/C:/Users/vadlamudi.haaswitha/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar!/org/apache/logging/log4j/util/PropertiesUtil.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.apache.logging.log4j.util.PropertiesUtil: file:/C:/Users/vadlamudi.haaswitha/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.boot.logging.log4j2.Log4J2LoggingSystem and org.apache.logging.log4j.util.PropertiesUtil
+
+22-Jun-2025 15:44:25 INFO - HV000001: Hibernate Validator 8.0.2.Final
+22-Jun-2025 15:44:26 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-Jun-2025 15:44:26 INFO - Finished Spring Data repository scanning in 73 ms. Found 5 JPA repository interfaces.
+22-Jun-2025 15:44:27 INFO - Tomcat initialized with port 8080 (http)
+22-Jun-2025 15:44:27 INFO - Root WebApplicationContext: initialization completed in 1948 ms
+22-Jun-2025 15:44:28 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+22-Jun-2025 15:44:28 INFO - HHH000412: Hibernate ORM core version 6.6.15.Final
+22-Jun-2025 15:44:28 INFO - HHH000026: Second-level cache disabled
+22-Jun-2025 15:44:28 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+22-Jun-2025 15:44:29 INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+22-Jun-2025 15:44:31 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+22-Jun-2025 15:44:31 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-Jun-2025 15:44:32 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-Jun-2025 15:44:33 INFO - Tomcat started on port 8080 (http) with context path '/'
+22-Jun-2025 15:45:03 INFO - Initializing Servlet 'dispatcherServlet'
+22-Jun-2025 15:45:03 INFO - Completed initialization in 3 ms
+22-Jun-2025 15:48:20 INFO - Commencing graceful shutdown. Waiting for active requests to complete
+22-Jun-2025 15:48:20 INFO - Graceful shutdown complete
+22-Jun-2025 15:48:20 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+22-Jun-2025 15:48:29 INFO - HV000001: Hibernate Validator 8.0.2.Final
+22-Jun-2025 15:48:30 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-Jun-2025 15:48:30 INFO - Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.
+22-Jun-2025 15:48:31 INFO - Tomcat initialized with port 8080 (http)
+22-Jun-2025 15:48:31 INFO - Root WebApplicationContext: initialization completed in 1826 ms
+22-Jun-2025 15:48:32 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+22-Jun-2025 15:48:32 INFO - HHH000412: Hibernate ORM core version 6.6.15.Final
+22-Jun-2025 15:48:32 INFO - HHH000026: Second-level cache disabled
+22-Jun-2025 15:48:32 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+22-Jun-2025 15:48:32 INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+22-Jun-2025 15:48:34 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+22-Jun-2025 15:48:35 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-Jun-2025 15:48:35 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-Jun-2025 15:48:36 INFO - Tomcat started on port 8080 (http) with context path '/'
+22-Jun-2025 15:48:57 INFO - Commencing graceful shutdown. Waiting for active requests to complete
+22-Jun-2025 15:48:57 INFO - Graceful shutdown complete
+22-Jun-2025 15:48:57 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+22-Jun-2025 15:49:05 INFO - HV000001: Hibernate Validator 8.0.2.Final
+22-Jun-2025 15:49:06 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-Jun-2025 15:49:06 INFO - Finished Spring Data repository scanning in 61 ms. Found 5 JPA repository interfaces.
+22-Jun-2025 15:49:06 INFO - Tomcat initialized with port 8080 (http)
+22-Jun-2025 15:49:06 INFO - Root WebApplicationContext: initialization completed in 1513 ms
+22-Jun-2025 15:49:07 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+22-Jun-2025 15:49:07 INFO - HHH000412: Hibernate ORM core version 6.6.15.Final
+22-Jun-2025 15:49:07 INFO - HHH000026: Second-level cache disabled
+22-Jun-2025 15:49:07 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+22-Jun-2025 15:49:08 INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+22-Jun-2025 15:49:09 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+22-Jun-2025 15:49:09 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-Jun-2025 15:49:10 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-Jun-2025 15:49:11 INFO - Tomcat started on port 8080 (http) with context path '/'
+22-Jun-2025 15:49:16 INFO - Initializing Servlet 'dispatcherServlet'
+22-Jun-2025 15:49:16 INFO - Completed initialization in 1 ms
+22-Jun-2025 17:19:28 INFO - Commencing graceful shutdown. Waiting for active requests to complete
+22-Jun-2025 17:19:28 INFO - Graceful shutdown complete
+22-Jun-2025 17:19:28 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+22-Jun-2025 17:19:43 INFO - HV000001: Hibernate Validator 8.0.2.Final
+22-Jun-2025 17:19:44 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-Jun-2025 17:19:44 INFO - Finished Spring Data repository scanning in 104 ms. Found 5 JPA repository interfaces.
+22-Jun-2025 17:19:46 INFO - Tomcat initialized with port 8080 (http)
+22-Jun-2025 17:19:46 INFO - Root WebApplicationContext: initialization completed in 2829 ms
+22-Jun-2025 17:19:46 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+22-Jun-2025 17:19:46 INFO - HHH000412: Hibernate ORM core version 6.6.15.Final
+22-Jun-2025 17:19:46 INFO - HHH000026: Second-level cache disabled
+22-Jun-2025 17:19:47 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+22-Jun-2025 17:19:48 INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+22-Jun-2025 17:19:50 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+22-Jun-2025 17:19:51 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-Jun-2025 17:19:52 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-Jun-2025 17:19:53 INFO - Tomcat started on port 8080 (http) with context path '/'
+22-Jun-2025 17:21:12 INFO - Commencing graceful shutdown. Waiting for active requests to complete
+22-Jun-2025 17:21:12 INFO - Graceful shutdown complete
+22-Jun-2025 17:21:12 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
